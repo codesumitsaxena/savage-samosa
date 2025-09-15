@@ -4,10 +4,9 @@ import logo from '../assets/logo.jpg'
 import Bacchimeme from '../assets/Bacchi meme.jpg'
 import akshaypaaji from '../assets/akshaypaaji.jpg'
 import arjunKapoor from '../assets/arjun-kapoor-angry-reaction.mp4'
-import pyarkyu from '../assets/Koi-Aapse-Pyaar-Kyu-Karega.mp4'
-import majaaaeyga from '../assets/maja.mp4'
+import pyarkyu from '../assets/Koi-Aapse-Pyaar-Kyu-Karega-ezgif.com-video-to-gif-converter.gif'
+import majaaaeyga from '../assets/maja-ezgif.com-cut.gif'
 import boatingChild from '../assets/boatingVideo.mp4'
-
 
 
 
@@ -145,15 +144,12 @@ const DarkBlueSavageSamosaWebsite = () => {
             {/* First Row - Oval with team and Single circle */}
             <div className="flex items-center justify-end mb-4 space-x-3">
             <div className="w-96 h-32 bg-gray-700 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-xl">
-  <video 
-    src={pyarkyu} 
-    autoPlay 
-    muted 
-    loop
-    className="w-full h-full object-cover object-top opacity-90" 
-  />
-</div>
-
+      <img 
+        src={pyarkyu} 
+        alt="pyarkyu gif" 
+        className="w-full h-full object-cover object-top opacity-90" 
+      />
+    </div>
               <div className="w-28 h-28 bg-gray-700 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-xl flex-shrink-0">
                 <img src={Bacchimeme} alt="Bacchimeme" className="w-full h-full object-cover opacity-90" />
               </div>
@@ -186,11 +182,8 @@ const DarkBlueSavageSamosaWebsite = () => {
             {/* Third Row - Oval with team and Single circle */}
             <div className="flex items-center justify-end space-x-3">
               <div className="w-96 h-32 bg-gray-700 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-xl">
-              <video 
+              <img 
     src={majaaaeyga} 
-    autoPlay 
-    muted 
-    loop
     className="w-full h-full object-cover opacity-90" 
   />
               </div>
