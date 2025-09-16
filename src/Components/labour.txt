@@ -1,0 +1,14 @@
+ {
+        id: 'employees',
+        title: 'Employee Management',
+        icon: Users,
+        path: '/Employee',
+        hasSubmenu: true,
+        submenu: [
+          { id: 'all-employees', title: 'All Employees', path: '/employees', component: 'AllEmployees.js' },
+          { id: 'add-employee', title: 'Add Employee', path: '/employees/add', component: 'AddEmployee.js' },
+          { id: 'employee-profiles', title: 'Employee Profiles', path: '/employees/profiles', component: 'EmployeeProfiles.js' },
+          { id: 'departments', title: 'Departments', path: '/departments', component: 'Departments.js' },
+
+        ]
+      },
