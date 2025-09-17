@@ -6,8 +6,8 @@ const CaseStudies = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Our <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text px-3 py-1 rounded-lg">latest</span> projects
+          <h1 className="text-4xl md:text-3xl lg:text-6xl font-bold mb-6">
+            Our <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text px-3 py-1 rounded-lg">latest</span> CaseStudies
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Check out some examples of our recent design work. We've helped startups across various industries achieve their visual communication goals.

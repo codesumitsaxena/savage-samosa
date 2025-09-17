@@ -9,7 +9,7 @@ export default function App() {
   return (
   <>
 <MarketingWebsite/>
-<About/>
+{/* <About/> */}
 <CaseStudies/>
 <Footer/>
   </>
