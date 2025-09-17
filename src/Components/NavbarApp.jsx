@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
 import { Menu, X, Home, User, Briefcase, Mail, FolderOpen, Phone, Users } from 'lucide-react';
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo-png2.png'
 import Bacchimeme from '../assets/Bacchi meme.jpg'
 import akshaypaaji from '../assets/akshaypaaji.jpg'
 import arjunKapoor from '../assets/arjun-kapoor-angry-reaction.mp4'
@@ -71,9 +71,7 @@ const DarkBlueSavageSamosaWebsite = () => {
             className="h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16 transform transition-transform duration-200 hover:scale-105"
             loading="eager"
           />
-          <div className="hidden sm:block">
-            <h2 className="text-white font-bold text-lg sm:text-xl">Savage Samosa</h2>
-          </div>
+         
         </div>
         
         <button

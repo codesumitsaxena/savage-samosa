@@ -9,8 +9,8 @@ const CaseStudies = () => {
           <h1 className="text-4xl md:text-3xl lg:text-6xl font-bold mb-6">
             Our <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text px-3 py-1 rounded-lg">latest</span> CaseStudies
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Check out some examples of our recent design work. We've helped startups across various industries achieve their visual communication goals.
+          <p className="text-gray-400 text-lg max-w-5xl mx-auto">
+          Our latest case studies where we've partnered with innovative startups to master the art of meme marketing. Learn how we've helped brands speak Gen Z language, create viral moments, and build authentic connections through culturally relevant content
           </p>
         </div>
 
